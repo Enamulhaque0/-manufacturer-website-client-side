@@ -5,7 +5,7 @@ const OrderModal = ({ setModalClose, _id, productName, refetch }) => {
 
     const handleDelete = () => {
 
-        fetch(`http://localhost:5000/product/${_id}`, {
+        fetch(`https://vast-atoll-69678.herokuapp.com/product/${_id}`, {
             method: 'DELETE',
             headers: {
                 authorization: `Bearer ${localStorage.getItem('accessToken')}`

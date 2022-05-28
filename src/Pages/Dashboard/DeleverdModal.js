@@ -5,7 +5,7 @@ const DeleverdModal = ({ setModalClose, _id, productName }) => {
 
     const handleDeleverd = () => {
 
-        fetch(`http://localhost:5000/paidorders/${_id}`, {
+        fetch(`https://vast-atoll-69678.herokuapp.com/paidorders/${_id}`, {
             method: 'PATCH',
             headers: {
                 'content-type': 'application/json',

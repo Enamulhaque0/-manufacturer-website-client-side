@@ -13,7 +13,7 @@ const Profile = () => {
     const [user] = useAuthState(auth);
     const [modalClose, setModalClose] = useState('');
 
-    const { data: profile, isLoading, error, refetch } = useQuery('porfile', () => fetch(`http://localhost:5000/user/${user?.email}`).then(res => res.json()))
+    const { data: profile, isLoading, error, refetch } = useQuery('porfile', () => fetch(`https://vast-atoll-69678.herokuapp.com/user/${user?.email}`).then(res => res.json()))
 
     if (isLoading) {
         return <Loading />

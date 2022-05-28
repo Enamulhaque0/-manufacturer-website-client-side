@@ -15,7 +15,7 @@ const Purcess = () => {
     const [order, setOrder] = useState(null);
     const [price, setPrice] = useState(0);
 
-    const { data: product, isLoading, error } = useQuery('purcess', () => fetch(`http://localhost:5000/product/${id}`).then(res => res.json()))
+    const { data: product, isLoading, error } = useQuery('purcess', () => fetch(`https://vast-atoll-69678.herokuapp.com/product/${id}`).then(res => res.json()))
 
     if (isLoading) {
         return <Loading />
