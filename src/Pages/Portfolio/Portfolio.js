@@ -57,19 +57,19 @@ const Portfolio = () => {
                             <div class="card-body">
                                 <h2 class="card-title">Projects</h2>
                                 <div className='grid grid-cols-1'>
-                                    <p> <span className='text-md font-bold'>1. Auto Showroom</span> <br />
-                                        <Link className='btn-link btn-active' to='https://mads-auto-showroom.web.app/' >Live Site Link</Link> <br />
-                                        <Link className='btn-link btn-active' to='https://github.com/MrMADS28289/Auto-Showroom' >Client Side GitHub Link</Link> <br />
-                                        <Link className='btn-link btn-active' to='https://github.com/MrMADS28289/Auto-Showroom-Server' >Server Side GitHub Link</Link> <br />
+                                    <p> <span className='text-md font-bold'>1. Panda Showroom</span> <br />
+                                        <Link className='btn-link btn-active' to='https://panda-commerce-inam.netlify.app/' >Live Site Link</Link> <br />
+                                        <Link className='btn-link btn-active' to='' >Client Side GitHub Link</Link> <br />
+                                        <Link className='btn-link btn-active' to='' >Server Side GitHub Link</Link> <br />
 
                                         It’s a car's dealer website.
                                         For buy and sell cars.
                                         User can log in with email and Facebook.
                                     </p>
                                     <p> <span className='text-md font-bold'>2. My To-Do app</span> <br />
-                                        <Link className='btn-link btn-active' to='https://mads-to-do-list.web.app/login' >Live Site Link</Link> <br />
-                                        <Link className='btn-link btn-active' to='https://github.com/MrMADS28289/To-Do-List' >Client Side GitHub Link</Link> <br />
-                                        <Link className='btn-link btn-active' to='https://github.com/MrMADS28289/To-Do-List-server' >Server Side GitHub Link</Link> <br />
+                                        <Link className='btn-link btn-active' to='' >Live Site Link</Link> <br />
+                                        <Link className='btn-link btn-active' to='' >Client Side GitHub Link</Link> <br />
+                                        <Link className='btn-link btn-active' to='' >Server Side GitHub Link</Link> <br />
 
                                         It's a To Do check list website. You can note you'r daily task, and that's secure. You need to login first of all.
                                     </p>
