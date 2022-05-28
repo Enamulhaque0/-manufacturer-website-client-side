@@ -1,0 +1,54 @@
+[
+  {
+    "name": "VARIABLE SPEED DRILL PRESS",
+    "description": "Positive depth stop for quick and easy adjustment of the spindle trave...",
+    "img": "https://i.ibb.co/sVbXsMT/iteam1.jpg",
+    "minOrder": "1000",
+    "stock": "50000",
+    "unitPrice": "900"
+  },
+
+  {
+    "name": "SPEED DRYWALL SANDER",
+    "description": "Designed for sanding drywall, ceilings and walls, cleaning floor resid...",
+    "img": "https://i.ibb.co/z7r9Ms0/iteam2.jpg",
+    "minOrder": "3000",
+    "stock": "1500",
+    "unitPrice": "8000"
+  },
+
+  {
+    "name": "PORTABLE VARIABLE SPEED METAL CUTTING BANDSAW",
+    "description": "Designed for sanding drywall, ceilings and walls, cleaning floor resid...",
+    "img": "https://i.ibb.co/ZB67Rzf/iteam3.jpg",
+    "minOrder": "3000",
+    "stock": "1500",
+    "unitPrice": "8000"
+  },
+
+  {
+    "name": "GENERATOR WITH ELECTRIC START",
+    "description": "Designed for sanding drywall, ceilings and walls, cleaning floor resid...",
+    "img": "https://i.ibb.co/Y8GRdSZ/iteam4.jpg",
+    "minOrder": "3000",
+    "stock": "1500",
+    "unitPrice": "8000"
+  },
+  {
+    "name": "GENERATOR WITH ELECTRIC START",
+    "description": "Designed for sanding drywall, ceilings and walls, cleaning floor resid...",
+    "img": "https://i.ibb.co/kgJLJqJ/iteam5.jpg",
+    "minOrder": "3000",
+    "stock": "1500",
+    "unitPrice": "8000"
+  },
+
+  {
+    "name": "GENERATOR WITH ELECTRIC START",
+    "description": "Designed for sanding drywall, ceilings and walls, cleaning floor resid...",
+    "img": "https://i.ibb.co/2cgv1PX/iteam6.jpg",
+    "minOrder": "3000",
+    "stock": "1500",
+    "unitPrice": "8000"
+  }
+]
