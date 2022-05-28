@@ -16,7 +16,7 @@ const AddProduct = () => {
 
         const product = { name, unitPrice, stock, description, minOrder, image };
 
-        fetch('https://powerful-fjord-17237.herokuapp.com/product', {
+        fetch('http://localhost:5000/product', {
             method: 'POST',
             headers: {
                 authorization: `Bearer ${localStorage.getItem('accessToken')}`,

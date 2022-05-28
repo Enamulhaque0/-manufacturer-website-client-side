@@ -16,7 +16,7 @@ const OrderModal = ({ order, setOrder }) => {
         const phone = e.target.phone.value;
         const order = { userName, email, country, address, phone, productName, quantity, price, paid: false }
 
-        fetch('https://powerful-fjord-17237.herokuapp.com/order', {
+        fetch('http://localhost:5000/order', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json',
