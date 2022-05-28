@@ -24,13 +24,17 @@ const Purcess = () => {
         toast.error(error.massage)
     }
     const { name, img, minOrder, stock, unitPrice } = product;
-
+console.log(product)
     const handleQuantity = (e) => {
-        e.preventDefault();
 
-        const quantity = e.target.quantity.value;
+        const quantity = e.target.value;
+        console.log(quantity)
 
-        if (quantity >= minOrder && quantity <= stock) {
+
+        
+
+
+        if (quantity >=parseInt( minOrder) && quantity <= parseInt(stock)) {
             setQuantity(quantity)
             const divide = unitPrice / minOrder;
             const price = divide * quantity;
@@ -39,7 +43,8 @@ const Purcess = () => {
         else {
             toast.error('Please enter a valid quantity!')
         }
-        e.target.reset();
+        // e.target.reset();
+        // e.preventDefault();
     }
 
     const handleSetOrder = () => {
@@ -64,10 +69,12 @@ const Purcess = () => {
                         {
                             price !== 0 && <p className='text-xs font-bold'>Total price: ${price}</p>
                         }
-                        <form onSubmit={handleQuantity} className='my-2 flex'>
+
+                    <input onChange={handleQuantity} type="number" name='quantity' placeholder="Enter quantity" class="input input-bordered input-xs w-full max-w-xs" />
+                        {/* <form onSubmit={handleQuantity} className='my-2 flex'>
                             <input type="number" name='quantity' placeholder="Enter quantity" class="input input-bordered input-xs w-full max-w-xs" />
                             <input type='submit' value='Add' class="btn btn-xs btn-primary" />
-                        </form>
+                        </form> */}
                         <div className="card-actions justify-center">
                             <label
                                 for="order-modal"
